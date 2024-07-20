@@ -1,0 +1,34 @@
+
+/*ESTILO GERAL*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: rgb(110, 104, 104);
+    height: 100vh;
+}
+
+.interface {
+    margin-left: 100px;
+    max-width: 1280px;
+}
+
+/* ESTILO DO CABEÇALHO */
+
+header {
+    padding: 40px 4%;
+}
+
+header .interface {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .menu-desktop a {
+    color: white;
+}
