@@ -13,6 +13,7 @@
     <!-- BOOTSTRAP ICONS -->
     <title>Agencia BRN</title>
     <link rel="stylesheet" href="estilo/style.css">
+    <script src="menu.js" defer></script>
 </head>
 <body>
     <header>
@@ -24,9 +25,9 @@
             <nav class="menu-desktop">
                 <ul>
                     <li><a href="#">Início</a></li>
-                    <li><a href="#">Especialidades</a></li>
-                    <li><a href="#">Sobre</a></li>
-                    <li><a href="#">Projetos</a></li>
+                    <li><a href="#especialidades">Especialidades</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
                 </ul>
             </nav>
             
@@ -35,6 +36,30 @@
                     <button>Contato</button>
                 </a>
             </div><!--btn-contato-->
+
+            <div class="btn-abrir-menu" id="btn-menu">
+                <i class="bi bi-list"></i>
+            </div>
+
+            <div class="menu-mobile" id="menu-mobile">
+                <div class="btn-fechar">
+                    <i class="bi bi-x-lg"></i>
+                </div><!--btn-fechar-->    
+                    
+                    <nav>
+                        <ul>
+                            <li><a href="#">Início</a></li>
+                            <li><a href="#especialidades">Especialidades</a></li>
+                            <li><a href="#sobre">Sobre</a></li>
+                            <li><a href="#projetos">Projetos</a></li>
+                            <li><a href="#">Contato</a></li>
+                        </ul>
+                    </nav>
+            </div><!--menu-mobile-->
+            <div class="overlay-menu" id="overlay-menu">
+
+            </div>
+
         </div><!--interface-->
     </header>
 
@@ -60,7 +85,7 @@
             </div><!--interface-->
         </section><!--topo-do-site-->
 
-        <section class="especialidades">
+        <section class="especialidades" id="especialidades">
             <div class="interface">
                 <h2 class="titulo">MINHAS <span>ESPECIALIDADES.</span></h2>
                 <div class="flex">
@@ -83,7 +108,7 @@
             </div> <!--interface-->
         </section> <!--especialidades-->
 
-        <section class="sobre">
+        <section class="sobre" id="sobre">
             <div class="interface">
                 <div class="flex">
                     <div class="img-sobre">
@@ -104,7 +129,7 @@
             </div><!--interface-->
         </section><!--sobre-->
 
-        <section class="portifolio">
+        <section class="portifolio" id="projetos">
             <div class="interface">
                 <h2 class="titulo">MEU <span>PORTIFÓLIO.</span></h2>
                 <div class="flex">
