@@ -28,7 +28,7 @@ body {
     padding: 10px 40px;
     font-size: 18px;
     font-weight: 600;
-    background-color: #00ff08;
+    background-color: #0004ff;
     border: 0px;
     border-radius: 30px;
     cursor: pointer;
@@ -37,7 +37,7 @@ body {
 
 button:hover,
 form .btn-enviar input:hover {
-    box-shadow: 0px 0px 8px #00ff08;
+    box-shadow: 0px 0px 8px #0004ff;
     transform: scale(1.05);
 }
 
@@ -48,7 +48,7 @@ h2.titulo {
 }
 
 h2.titulo span {
-    color: #00ff08;
+    color: #0004ff;
 }
 
 /* ESTILO DO CABEÇALHO */
@@ -89,7 +89,7 @@ header nav.menu-desktop ul li {
 /* ESTILO MENU MOBILE */
 
 .btn-abrir-menu i {
-    color: #00ff08;
+    color: #0004ff;
     font-size: 40px;
 }
 
@@ -126,7 +126,7 @@ header nav.menu-desktop ul li {
 }
 
 .menu-mobile nav ul li a:hover {
-    background-color: #00ff08;
+    background-color: #0004ff;
     color: black;
 }
 
@@ -146,7 +146,7 @@ header nav.menu-desktop ul li {
 }
 
 .menu-mobile .btn-fechar i {
-    color: #00ff08;
+    color: #0004ff;
     font-size: 30px;
 
 }
@@ -170,7 +170,7 @@ header nav.menu-desktop ul li {
 }
 
 .topo-do-site .txt-topo-site h1 span {
-    color: #00ff08;
+    color: #0004ff;
 }
 
 .topo-do-site .txt-topo-site p {
@@ -218,7 +218,7 @@ header nav.menu-desktop ul li {
 
 .especialidades .especialidades-box i {
     font-size: 70px;
-    color: #00ff08;
+    color: #0004ff;
 }
 
 .especialidades .especialidades-box h3 {
@@ -248,7 +248,7 @@ header nav.menu-desktop ul li {
 }
 
 .txt-sobre h2 span {
-    color: #00ff08;
+    color: #0004ff;
     display: block;
 }
 
@@ -262,7 +262,7 @@ header nav.menu-desktop ul li {
     height: 60px;
     border-radius: 50%;
     border: none;
-    background-color: #00ff08;
+    background-color: #0004ff;
     font-size: 25px;
     cursor: pointer;
     margin: 0 5px;
@@ -361,7 +361,7 @@ form .btn-enviar {
 
 form .btn-enviar input {
     width: 120px;
-    background-color: #00ff08;
+    background-color: #0004ff;
     color: black;
     font-weight: 700;
     cursor: pointer;
@@ -384,12 +384,12 @@ footer .flex {
 }
 
 footer .line-footer p i {
-    color: #00ff08;
+    color: #00004ff;
     font-size: 22px;
 }
 
 .borda {
-    border-top: 2px solid #00ff08;
+    border-top: 2px solid #0004ff;
 }
 
 footer .line-footer p a {
