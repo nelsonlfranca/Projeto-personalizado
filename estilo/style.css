@@ -347,7 +347,7 @@ form textarea {
 }
 
 /*Se quiser mudar a cor da font interna*/
-form input::placeholder {}
+/* form input::placeholder {} */
 
 form textarea {
     resize: none;
